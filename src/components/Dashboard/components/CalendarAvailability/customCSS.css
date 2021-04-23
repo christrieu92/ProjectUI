@@ -1,0 +1,32 @@
+.DayPicker {
+}
+
+.DayPicker-wrapper {
+}
+
+.DayPicker-Months {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.DayPicker-Month {
+  flex-wrap: inherit !important;
+  border: 1px solid #dedede;
+}
+
+.DayPicker-Caption {
+  text-align: center;
+}
+
+.DayPicker-Day {
+  border-radius: 0px;
+  border: 1px solid #dedede;
+}
+
+.DayPicker-Day--selected {
+  background-color: #d03620 !important;
+  border-top-color: #e3361d;
+  border-bottom-color: #e3361d;
+  border-left-color: #d03620;
+  border-right-color: #d03620;
+}

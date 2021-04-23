@@ -1,0 +1,19 @@
+.popover-header {
+  color: black;
+}
+
+.btn {
+  margin: 5px;
+  text-align: center;
+  color: black;
+  font-size: medium;
+}
+
+.btn:hover {
+  background-color: lightgray;
+}
+
+.notification-info-panel .notification-message.unread {
+  background-color: #d8d8d8;
+  color: black;
+}
