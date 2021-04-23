@@ -1,11 +1,8 @@
 import axios from "axios";
 import moment from "moment";
 
-const baseURL = "https://yortrips-service.herokuapp.com/api/";
-const baseInvitationURL = "https://yortrips.xyz/calendarinvite/";
-
-//const baseInvitationURL = "http://localhost:3000/calendarinvite/";
-//const baseURL = "http://localhost:51044/api/";
+const baseInvitationURL = "http://localhost:3000/calendarinvite/";
+const baseURL = "http://localhost:51044/api/";
 
 const APIService = {
   async getUserByEmail(tokenResponse, email) {
